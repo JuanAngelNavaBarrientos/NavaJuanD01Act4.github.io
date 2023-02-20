@@ -78,7 +78,7 @@ function ObtenerNumeroProcesos(){
 function crearProcesos(id){
     const nombres = ['Juan', 'Marisol', 'Consuelo', 'Luis', 'Carlos'];
     const nombre = nombres[randomNumber(0, 4)];
-    const tiempo = randomNumber(1, 15);
+    const tiempo = randomNumber(5, 16);
     const operacion = generarOperacion();
     
     const errores = validar(operacion);
